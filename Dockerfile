@@ -6,8 +6,7 @@ RUN adduser --disabled-password --gecos "" sinopia
 WORKDIR /home/sinopia
 USER sinopia
 
-npm install -g sinopia
-npm install js-yaml rc sinopia-crowd
+RUN npm install sinopia && npm install js-yaml rc sinopia-crowd
 
 Add config.yaml .
 ADD configure.js .

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-node configure.js && sinopia --config run.yaml
+node configure.js && node_modules/.bin/sinopia --config run.yaml
