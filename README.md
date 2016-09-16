@@ -6,7 +6,7 @@ Docker Container for sinopia with crowd authentication
 You can overwrite all configs in the following schema:
 
 `sinopia_name`
-`sinopia__nested_name`
+`sinopia_this__is_nested__even_deeper`
 
 # crowd options
 
