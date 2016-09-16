@@ -1,4 +1,4 @@
-FROM node:6
+FROM node:6-slim
 
 MAINTAINER Tobias Gurtzick <magic@wizartales.com>
 
